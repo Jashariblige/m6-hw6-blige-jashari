@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -24,9 +23,21 @@ main{
     margin: 2rem auto;
 }
 
+nav{
+    display: flex
+}
+
+.logo{
+    margin-right: auto;
+ }
+
+ .link{
+    margin: 0 4px;
+ }
+
 header, footer {
     background-color: #eee;
-    padding: 5rem;
+    padding: 2rem;
     text-align: center;
     color: rgb(161, 39, 64);
 }
@@ -46,5 +57,3 @@ article{
     align-items: center;
     justify-content: center;
 }
-
-
